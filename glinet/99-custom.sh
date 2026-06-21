@@ -101,8 +101,8 @@ uci set dropbear.@dropbear[0].Interface=''
 uci commit
 
 #设置路由器主机名
-uci set system.@system[0].hostname="MT3000" 
-uci commit system
+#uci set system.@system[0].hostname="MT3000" 
+#uci commit system
 
 # 设置编译作者信息
 FILE_PATH="/etc/openwrt_release"
