@@ -51,12 +51,12 @@ PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 # 文件管理器
-PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 暂时去除 quickstart 因为目前暂时没有 aarch64_cortex-a53 架构的apk
-PACKAGES="$PACKAGES -luci-i18n-quickstart-zh-cn"
+#PACKAGES="$PACKAGES -luci-i18n-quickstart-zh-cn"
 
 
 # 第三方软件包 合并
